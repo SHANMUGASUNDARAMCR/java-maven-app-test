@@ -50,6 +50,16 @@
   <name>Nexus-test</name>
   <url>http://hrp-srajakum-d:8094/repository/Nexus-test</url>
  </repository>
+   <repository>
+          <id>central</id>
+          <url>http://central</url>
+          <releases>
+            <enabled>true</enabled>
+          </releases>
+          <snapshots>
+            <enabled>true</enabled>
+          </snapshots>
+        </repository>
 </repositories>
 
 </project>
