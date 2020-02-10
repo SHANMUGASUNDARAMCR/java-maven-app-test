@@ -40,15 +40,15 @@
   <name>Nexus Releases</name>
   <url>http://hrp-srajakum-d:8094/repository/maven-releases</url>
 </repository>
-<snapshotRepository>
+<repository>
   <id>maven-snapshots</id>
   <name>Nexus-Snapshot</name>
   <url>http://hrp-srajakum-d:8094/repository/maven-snapshots</url>
-</snapshotRepository>
-<snapshotRepository>
+</repository>
+<repository>
   <id>Nexus-test</id>
   <name>Nexus-test</name>
   <url>http://hrp-srajakum-d:8094/repository/Nexus-test</url>
-</snapshotRepository>
+</repository>
 </distributionManagement>
 </project>
