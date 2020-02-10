@@ -34,32 +34,21 @@
       </plugin>
     </plugins>
   </build>
-<repositories>
-  <repository>
+<distributionManagement>
+<repository>
   <id>nexus</id>
   <name>Nexus Releases</name>
-  <url>http://hrp-srajakum-d:8094/repository/maven-releases</url>
-     </repository>
-   <repository>
+  <url>http://localhost:8094/repository/maven-releases</url>
+</repository>
+<snapshotRepository>
   <id>maven-snapshots</id>
   <name>Nexus-Snapshot</name>
-  <url>http://hrp-srajakum-d:8094/repository/maven-snapshots</url>
-   </repository>
-      <repository>
-     <id>Nexus-test</id>
+  <url>http://localhost:8094/repository/maven-snapshots</url>
+</snapshotRepository>
+<snapshotRepository>
+  <id>Nexus-test</id>
   <name>Nexus-test</name>
-  <url>http://hrp-srajakum-d:8094/repository/Nexus-test</url>
- </repository>
-   <repository>
-          <id>central</id>
-          <url>https://repo1.maven.org/maven2/</url>
-          <releases>
-            <enabled>true</enabled>
-          </releases>
-          <snapshots>
-            <enabled>true</enabled>
-          </snapshots>
-        </repository>
-</repositories>
-
+  <url>http://localhost:8094/repository/Nexus-test</url>
+</snapshotRepository>
+</distributionManagement>
 </project>
