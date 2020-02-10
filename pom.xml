@@ -35,6 +35,7 @@
     </plugins>
   </build>
 <distributionManagement>
+ <repositories>
 <repository>
   <id>nexus</id>
   <name>Nexus Releases</name>
@@ -50,5 +51,6 @@
   <name>Nexus-test</name>
   <url>http://hrp-srajakum-d:8094/repository/Nexus-test</url>
 </repository>
+  </repositories>
 </distributionManagement>
 </project>
