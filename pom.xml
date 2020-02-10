@@ -35,22 +35,15 @@
     </plugins>
   </build>
 <distributionManagement>
- <repositories>
 <repository>
   <id>nexus</id>
   <name>Nexus Releases</name>
   <url>http://hrp-srajakum-d:8094/repository/maven-releases</url>
 </repository>
-<repository>
+<snapshotRepository>
   <id>maven-snapshots</id>
   <name>Nexus-Snapshot</name>
   <url>http://hrp-srajakum-d:8094/repository/maven-snapshots</url>
-</repository>
-<repository>
-  <id>Nexus-test</id>
-  <name>Nexus-test</name>
-  <url>http://hrp-srajakum-d:8094/repository/Nexus-test</url>
-</repository>
-  </repositories>
+</snapshotRepository>
 </distributionManagement>
 </project>
